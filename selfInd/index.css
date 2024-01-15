@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142,161,136);
+}
+header{
+    background-color:rgb(31,45,59);
+    display: flex;
+    /* ek line m lane ke liya */
+    justify-content: space-between;
+    /* A=LAST B shift ho jayga */
+}
+.name_cont{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+nav{
+    display: block;
+    padding-right: 25px;
+}
+ul{ 
+    
+    display: flex;
+     /* //ek row mai karne ke liye */
+    justify-content: space-evenly; 
+    gap: 20px;
+    list-style: none; 
+     /* //. rome karne ke liye */
+     
+    
+}
+
+li{
+    color: white;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration: none;
+      /* // __rovme karne ke liye */
+}
+
+.about_cont{
+   
+    margin: 20px 10% 20px 10%;
+    
+}
+
+.about_content{
+   
+    border-radius: 4px;
+    background-color: rgb(191,201,189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main_border{
+    background-color: rgb(47,67,77);
+    /* border: 4px solid; */
+    height: 620px;
+}
+
+
+.indide_content{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para_cont{
+    padding: 10% 20% 10% 10%;
+} 
+ .para_cont p{
+   font-size: 35px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .para_cont b{
+    color: rgb(165, 28, 19);
+    text-shadow: 3px 3px 7px whitesmoke;
+ }
+
+
+.icon_content{
+    
+    margin-top: -144px;
+    border: 0px solid ;
+    background-color: rgb(70,95,104);
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 120px;
+    
+}
+
+.icon_border{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-img{
+    padding: 10px 20px 10px 20px;
+}
+.icon-img img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+/* .icon_content img {
+    padding-left: 15%;
+    padding-bottom: 1%;
+    padding-top: 1% ;
+    width: 5%;
+  
+} */
+
+.imges_{
+    padding-top: 20px;
+    padding-right: 10%;
+    
+}
+ img{
+    border-radius: 10%;
+ }
+
+ .last_border{
+   
+    border: 1px solid rgb(77, 103, 114);
+    background-color:rgb(77, 103, 114) ;
+    border-radius: 3px;
+    box-shadow: 3px 2px 8px;
+ }
+ .last_border p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+ }
+
+ .last_border{
+    
+    display: block;
+    margin: 15% 0px;
+
+    
+ }
+
+
+ /* about--- */
+
+
+ .about_para{
+    border-radius: 6px;
+    background-color: rgb(230, 223, 214);
+
+}
+.about_para p{
+    
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-style: normal;
+      font-size: 18px;
+      padding-left: 20px;
+      word-spacing: 1.8px;
+
+}
+
+.text_education{
+    border-radius: 6px;
+    background-color: rgb(230, 223, 214);
+}
+.para_edutcion{
+    padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 20px;
+}
+.para_edutcion h2{
+      font-size: 30px;
+      border-bottom: 2px solid black;
+    
+}
+
+.para_edutcion h3{
+    font-size: 20px;
+   margin-bottom: 10px !important;
+ 
+}
+.para_edutcion h5{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0 !important;
+}
+
+.about_contact1{
+    border-radius: 6px;
+    background-color: rgb(230, 223, 214);
+    padding-bottom: 1px;
+    padding-left: 20px;
+    
+    
+}
+.about_contact2 h2{
+     padding-top: 15px;
+     border-bottom: 2px solid black;
+     font-size: 30px;
+}
+.about_contact3{
+    margin-right: 20px;
+}
+.about_contact3 ul li{
+    
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about_contact3 ul a{
+    color: black;
+    font-size: 20px;
+}
+.about_contact3 ul{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.main_body{
+    display: block;
+    background-color: rgb(142,161,136);
+    /* margin-top: -20px; */
+    height: 700px;
+}
+
+
+
+.skill_mainborder{
+    /* background-color: rgb(238, 177, 112); */
+padding: 0 5%;   
+}
+.my-skill{
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(191,201,189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /* span{
+    margin-top: -10%; */
+    
+/* } */
+.skill_border{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 5%;
+    gap: 40px;
+   
+   
+   
+}
+.develop_skils,.tool_inside{
+    width: 50%;
+}
+
+.develop_skils{
+    box-shadow: 4px 7px rgb(228, 116, 116) ;
+    border: 0px solid ;
+    border-radius: 7px;
+    height: 300px;
+    padding-left: 1%;
+    background-color: rgb(195,208,201);
+}
+
+
+
+.tool_inside{
+    box-shadow: 4px 7px rgb(228, 116, 116) ;
+    border-radius: 7px;
+    background-color: rgb(195,208,201);
+    padding-left: 1%;
+    border: 0px solid ;
+    height: 300px;
+}
+.text_para{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(223, 97, 150);
+}
+.text_2para{
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+}
+.text_tool{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(223, 97, 150);
+}
+.text3{
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+input{
+    width: 470px;
+    
+}
